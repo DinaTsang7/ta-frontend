@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html >
 <head>
   <meta charset="UTF-8">
@@ -9,38 +9,27 @@
   src="https://code.jquery.com/jquery-3.2.1.js"
   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
   crossorigin="anonymous"></script>
-        </script>
   
   
       <link rel="stylesheet" href="login.css">
-
+    <script src="login.js"></script>
   
 </head>
 
 <body>
-  <body>
-  <div class="header-top clearfix">
-    <h1 class="l-left">YOUR LOGO</h1>
-  </div>
-  
-  <div class="login-title">
-    <p><img id="login-portrait" src="http://res.cloudinary.com/dinatsang/image/upload/v1501313730/log_in_portrait_ndnnv7.png"><span id="login-text">Log Here</span></p>
-  </div>
-  
-  <div class="login-frame">
-    <form class="login-info" name="login-info">
-      Username: <input type="text" name="username"><br>
-      Password: <input type="password" name="password"><br>
-    <span id="test"></span>
-    </form>
-  </div>
-  
-  <div class="submit">
-  <div class="g-signin2" data-onsuccess="login"></div>
-  </div>
-</body>
-  
-    <script src="login.js"></script>
+    <!--UoM Logo-->
+    <div class="header-top clearfix">
+        <img class="unimelb-logo" src="https://d2h9b02ioca40d.cloudfront.net/v7.0/assets/logo-4d389.svg"  />
+        <div class="login-title">
+            <span class="login-text">Faculty of Business and Economics</span>
+        </div>
+    </div>
+   
+    <!--<p class="login-text">Online Assignment System</p>--->
+    <div class="submit">
+        
+        <div class="g-signin2 login-button" data-onsuccess="login">Login</div>
+    </div>
 
 </body>
 </html>
