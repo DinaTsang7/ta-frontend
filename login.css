@@ -8,6 +8,27 @@ html {
 	font-size: 62.5%;
 }
 
+body{
+    display:grid;
+    grid-rows: 170px auto;
+    grid-template-rows: 170px auto;
+    height:100%;
+}
+
+#head-banner{
+    grid-row:1;
+    grid-template-row:1;
+}
+
+#content{
+    position:absolute;
+    grid-row:2;
+    grid-template-row:2;
+    background-image: url(http://fbe.unimelb.edu.au/__data/assets/image/0003/2435286/19490_2000x1000px_Open-Day_Banner_FBE.jpg);
+    height:100%;
+    width:100%;
+}
+
 .header-top {
     display:grid;
 	background: rgba(0, 47, 77, .25);
@@ -19,7 +40,8 @@ html {
 	width: 100%;
 	z-index: 12;
 	box-sizing: border-box;
-    grid-columns: 200px auto;
+    grid-columns: 180px auto;
+    grid-template-columns: 180px auto;
     -moz-box-shadow:2px 2px 5px #333333; 
     -webkit-box-shadow:2px 2px 5px #333333; 
     box-shadow:2px 2px 5px #333333;
@@ -29,7 +51,6 @@ h1 {
   line-height: 70px;
 	height: 70px;
   color: white;
-  grid-column:1;
 }
 
 .login-title {
@@ -37,6 +58,7 @@ h1 {
     height:100%;
     width:100%;
     grid-column:2;
+    grid-template-column:2;
 }
 
 #login-portrait {
@@ -50,8 +72,7 @@ h1 {
     line-height: 170px;
     text-align:center;
     color:#036;
-    z-index:12;
-     font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
 }
 
 
@@ -79,10 +100,14 @@ input:focus {
   text-align: left;
 }
 
-.submit {
-  position: absolute;
-  top: 380px;
-  left: 48%;
+.content-grid {
+  padding-top:0px;
+  display:grid;
+  grid-columns: 100fr 1fr 100fr;
+  grid-template-columns: 100fr 1fr 100fr;
+  grid-rows:250fr 1fr 100fr;
+  grid-template-rows: 250fr 1fr 100fr;
+
 }
 
 #login-icon {
@@ -105,7 +130,12 @@ input:focus {
 }
 
 .login-button{
-    background-color:#036;
+    grid-column:2;
+    grid-template-column:2;
+    grid-row:2;
+    grid-template-row:2;
+    vertical-align:central;
+
 
 }
 
