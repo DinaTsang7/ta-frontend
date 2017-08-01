@@ -105,8 +105,8 @@ input:focus {
   display:grid;
   grid-columns: 100fr 1fr 100fr;
   grid-template-columns: 100fr 1fr 100fr;
-  grid-rows:250fr 1fr 100fr;
-  grid-template-rows: 250fr 1fr 100fr;
+  grid-rows:320fr 1fr 80fr;
+  grid-template-rows: 320fr 1fr 80fr;
 
 }
 
