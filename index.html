@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <meta name="google-signin-client_id" content="69392565407-5m1emlk09am1rabgdgavfm0vhrfburhm.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+        </script>
+  
+  
+      <link rel="stylesheet" href="login.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class="header-top clearfix">
+    <h1 class="l-left">YOUR LOGO</h1>
+  </div>
+  
+  <div class="login-title">
+    <p><img id="login-portrait" src="http://res.cloudinary.com/dinatsang/image/upload/v1501313730/log_in_portrait_ndnnv7.png"><span id="login-text">Log Here</span></p>
+  </div>
+  
+  <div class="login-frame">
+    <form class="login-info" name="login-info">
+      Username: <input type="text" name="username"><br>
+      Password: <input type="password" name="password"><br>
+    <span id="test"></span>
+    </form>
+  </div>
+  
+  <div class="submit">
+  <div class="g-signin2" data-onsuccess="login"></div>
+  </div>
+</body>
+  
+    <script src="login.js"></script>
+
+</body>
+</html>

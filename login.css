@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+	padding: 0;
+  font-family: 'Alegreya Sans', Arial, sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.header-top {
+	background: rgba(0, 47, 77, .25);
+	height: 70px;
+	padding: 0 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 12;
+	box-sizing: border-box;
+}
+
+h1 {
+  line-height: 70px;
+	height: 70px;
+  color: white;
+}
+
+.login-title {
+  position: absolute;
+  top: 150px;
+  left: 30%;
+  height: 30px;
+}
+
+#login-portrait {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+#login-text {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  left: 20px;
+  position: relative
+}
+
+form {
+  position: absolute;
+  line-height: 50px;
+  padding: 30px;
+  display: block;
+  top: 220px;
+  left: 30%;
+}
+
+.login-info {
+  font-size: 20px;
+  width: auto;
+}
+
+input {
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 300px;
+  left: 10px;
+}
+
+input:focus {
+  background-color: white;
+  padding: 5px;
+}
+
+#test {
+  color: red;
+  text-align: left;
+}
+
+.submit {
+  position: absolute;
+  top: 380px;
+  left: 60%;
+}
+
+#login-icon {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  border: none;
+}
+
